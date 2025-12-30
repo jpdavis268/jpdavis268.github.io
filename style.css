@@ -1,18 +1,20 @@
 body {
     background-color: black;
     margin: 0px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 header {
     background-color: rgb(25, 25, 25);
+    width: 100%;
 }
 
 .header-content {
-    width: 1200px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1200px;
+    margin: auto;
     padding: 16px;
     display: flex;
     flex-shrink: 0;
@@ -60,9 +62,11 @@ main {
     margin-right: auto;
     margin-top: 20px;
     width: 1200px;
+    max-width: 90%;
     color: white;
     font-size: 1.2em;
     line-height: 1.5;
+    flex-shrink: 0;
 }
 
 main a {
